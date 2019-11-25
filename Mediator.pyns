@@ -1,0 +1,8 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Servidor', 'x':158, 'y':373, 'width':90, 'height':64, 'attrs': '', 'meths': 'mensa'}
+{'type':'umlshape', 'id':'Usuario', 'x':497, 'y':337, 'width':90, 'height':138, 'attrs': 'nombre|servidor', 'meths': '__init__|sendAnswer|__str__'}
+{'type':'umlshape', 'id':'object', 'x':326, 'y':176, 'width':70, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'Usuario_to_object', 'source':'Usuario', 'target':'object', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Servidor_to_object', 'source':'Servidor', 'target':'object', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Servidor_to_Usuario', 'source':'Servidor', 'target':'Usuario', 'uml_edge_type': 'composition'}

@@ -1,0 +1,8 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Prototype', 'x':52, 'y':152, 'width':106, 'height':138, 'attrs': 'tipo|nivel', 'meths': 'obtenerNivel|clonar|obtenerTipo'}
+{'type':'umlshape', 'id':'Pokemon1', 'x':372, 'y':212, 'width':90, 'height':122, 'attrs': 'tipo|nivel', 'meths': '__init__|clonar'}
+{'type':'umlshape', 'id':'Pokemon2', 'x':340, 'y':10, 'width':90, 'height':122, 'attrs': 'tipo|nivel', 'meths': '__init__|clonar'}
+{'type':'umlshape', 'id':'Objetos', 'x':51, 'y':345, 'width':98, 'height':112, 'attrs': 'tipo1Nivel1|tipo1Nivel2|tipo2Nivel1|tipo2Nivel2', 'meths': ''}
+{'type':'edge', 'id':'Pokemon2_to_Prototype', 'source':'Pokemon2', 'target':'Prototype', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Pokemon1_to_Prototype', 'source':'Pokemon1', 'target':'Prototype', 'uml_edge_type': 'generalisation'}
