@@ -1,0 +1,11 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Pc', 'x':220, 'y':67, 'width':30, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Version', 'x':58, 'y':180, 'width':80, 'height':64, 'attrs': '', 'meths': 'ver'}
+{'type':'umlshape', 'id':'System', 'x':348, 'y':182, 'width':70, 'height':64, 'attrs': '', 'meths': 'info'}
+{'type':'umlshape', 'id':'Windows', 'x':278, 'y':305, 'width':80, 'height':122, 'attrs': 'message|name', 'meths': '__init__|ver'}
+{'type':'umlshape', 'id':'Ios', 'x':498, 'y':309, 'width':74, 'height':122, 'attrs': 'message|name', 'meths': '__init__|ver'}
+{'type':'edge', 'id':'Windows_to_System', 'source':'Windows', 'target':'System', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Version_to_Pc', 'source':'Version', 'target':'Pc', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Ios_to_System', 'source':'Ios', 'target':'System', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'System_to_Pc', 'source':'System', 'target':'Pc', 'uml_edge_type': 'generalisation'}
