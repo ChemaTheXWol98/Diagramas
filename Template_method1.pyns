@@ -1,9 +1,0 @@
-# PynSource Version 1.2
-{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
-{'type':'umlshape', 'id':'Guerrero', 'x':284, 'y':61, 'width':90, 'height':128, 'attrs': '', 'meths': 'cae|enfrenta|gana|entrena|pelea'}
-{'type':'umlshape', 'id':'Goku', 'x':175, 'y':291, 'width':66, 'height':112, 'attrs': '', 'meths': 'entrena|gana|cae|pelea'}
-{'type':'umlshape', 'id':'Luffy', 'x':392, 'y':283, 'width':66, 'height':112, 'attrs': '', 'meths': 'entrena|gana|cae|pelea'}
-{'type':'umlshape', 'id':'Villano', 'x':554, 'y':285, 'width':80, 'height':112, 'attrs': '', 'meths': 'confia|destruye|muere|pelea'}
-{'type':'edge', 'id':'Goku_to_Guerrero', 'source':'Goku', 'target':'Guerrero', 'uml_edge_type': 'generalisation'}
-{'type':'edge', 'id':'Luffy_to_Guerrero', 'source':'Luffy', 'target':'Guerrero', 'uml_edge_type': 'generalisation'}
-{'type':'edge', 'id':'Villano_to_Villano', 'source':'Villano', 'target':'Villano', 'uml_edge_type': 'generalisation'}
