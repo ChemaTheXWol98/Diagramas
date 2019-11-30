@@ -1,0 +1,13 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Persona', 'x':318, 'y':51, 'width':80, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Guerrero', 'x':209, 'y':170, 'width':90, 'height':128, 'attrs': '', 'meths': 'gana|entrena|pelea|cae|enfrenta'}
+{'type':'umlshape', 'id':'Saiyajin', 'x':27, 'y':220, 'width':90, 'height':112, 'attrs': '', 'meths': 'gana|entrena|pelea|cae'}
+{'type':'umlshape', 'id':'Nakama', 'x':107, 'y':366, 'width':70, 'height':112, 'attrs': '', 'meths': 'gana|entrena|pelea|cae'}
+{'type':'umlshape', 'id':'Villano', 'x':448, 'y':156, 'width':80, 'height':128, 'attrs': '', 'meths': 'pelea|destruye|muere|confia|enfrenta'}
+{'type':'umlshape', 'id':'Villano1', 'x':586, 'y':375, 'width':90, 'height':112, 'attrs': '', 'meths': 'muere|confia|destruye|pelea'}
+{'type':'edge', 'id':'Saiyajin_to_Guerrero', 'source':'Saiyajin', 'target':'Guerrero', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Guerrero_to_Persona', 'source':'Guerrero', 'target':'Persona', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Nakama_to_Guerrero', 'source':'Nakama', 'target':'Guerrero', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Villano_to_Persona', 'source':'Villano', 'target':'Persona', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Villano1_to_Villano', 'source':'Villano1', 'target':'Villano', 'uml_edge_type': 'generalisation'}

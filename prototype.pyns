@@ -1,0 +1,10 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Pokemon', 'x':177, 'y':90, 'width':80, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Prototype', 'x':165, 'y':219, 'width':106, 'height':138, 'attrs': 'nivel|tipo', 'meths': 'obtenerNivel|clonar|obtenerTipo'}
+{'type':'umlshape', 'id':'Pokemon1', 'x':75, 'y':414, 'width':90, 'height':122, 'attrs': 'nivel|tipo', 'meths': 'clonar|__init__'}
+{'type':'umlshape', 'id':'Pokemon2', 'x':284, 'y':415, 'width':90, 'height':122, 'attrs': 'nivel|tipo', 'meths': 'clonar|__init__'}
+{'type':'umlshape', 'id':'Objetos', 'x':393, 'y':214, 'width':98, 'height':112, 'attrs': 'tipo1Nivel1|tipo1Nivel2|tipo2Nivel1|tipo2Nivel2', 'meths': ''}
+{'type':'edge', 'id':'Pokemon1_to_Prototype', 'source':'Pokemon1', 'target':'Prototype', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Prototype_to_Pokemon', 'source':'Prototype', 'target':'Pokemon', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Pokemon2_to_Prototype', 'source':'Pokemon2', 'target':'Prototype', 'uml_edge_type': 'generalisation'}

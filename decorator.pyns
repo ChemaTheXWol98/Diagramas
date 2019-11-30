@@ -1,0 +1,7 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'System', 'x':284, 'y':75, 'width':70, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'windows', 'x':439, 'y':224, 'width':80, 'height':106, 'attrs': 'message|name', 'meths': '__init__'}
+{'type':'umlshape', 'id':'ios', 'x':183, 'y':223, 'width':74, 'height':106, 'attrs': 'message|name', 'meths': '__init__'}
+{'type':'edge', 'id':'windows_to_System', 'source':'windows', 'target':'System', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'ios_to_System', 'source':'ios', 'target':'System', 'uml_edge_type': 'generalisation'}
